@@ -1,0 +1,8 @@
+WSUS and VMM Update Process
+1. Sync WSUS with Microsoft
+2. Approve new updates.
+3. Run WSUS maintenance script, which process supersedence.
+4. Sync Wsus with VMM through the VMM console
+5. Run VMM baseline script.
+6. Scan infrastructure servers for updates
+7. Ready for patching.
